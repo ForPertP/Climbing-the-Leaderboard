@@ -35,7 +35,7 @@ vector<int> climbingLeaderboard(vector<int> ranked, vector<int> player)
         {
             if (rank == 1)
             {
-                i = player.size()-1;
+                i = player.size() - 1;
                 break;
             }
             
@@ -148,4 +148,3 @@ vector<string> split(const string &str) {
 
     return tokens;
 }
-
